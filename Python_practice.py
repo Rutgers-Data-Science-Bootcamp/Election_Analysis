@@ -86,33 +86,47 @@ else:
 
 score = int(input("WHat is your test score? "))
 
-if score >= 90:
-    print('Your grade is a A.')
+if  (score >= 90):
+    print("Your grade is a A")
+if (score >= 80) :
+    print("Your grade is a B")
+if (score >= 70) :
+    print("Your grade is a C")
+if (score >= 60) :
+    print("Your grade is a D")
 else:
-    if score >=80:
-        print('Your grade is a B.')
-      else:
-          if score >=70:
-            print('Your grade is a C.')
-              else:
-                if score is >=60:
-                    print('Your grade is a D.')
-                    else:
-                        print('Your grade is an F')
+    print("Your grade is an F")
 
 
-score = int(input("WHat is your test score? "))
-if score >= 90:
+score = int(input("WHat is your test score?"))
+if (score >= 90):
     print('Your grade is a A.')
-elif score >=80:
-        print('Your grade is a B.')
-elif score >=70:
-            print('Your grade is a C.')
-elif score is >=60:
-                    print('Your grade is a D.')
+elif (score >= 80):
+    print('Your grade is a B.')
+elif (score >=70):
+    print('Your grade is a C.')
+elif (score >=60):
+    print('Your grade is a D.')
 else:
-                        print('Your grade is an F')
+    print('Your grade is an F')
+print("hello World")
 
+
+import datetime
+now= datetime.datetime.now()
+print("The time right now is", now)
+
+# the Csv module
+import csv
+dir(csv)
+
+dir(int)
+dir(float)
+dir(bool)
+dir(list)
+dir(tuple)
+dir(dict)
+dir(datetime)
 
 
 
