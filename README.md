@@ -1,5 +1,5 @@
 # Election-Analysis
-Using Python to analysis Colorado election outcome for three candidates.  
+Using Python to analysis Colorado election outcome for three candidates from three counties.  
 
 ## Project Overview
 A Colorado Board of Election employee has gave me the following tasks to complete the election audit of a recent local congressional election.
